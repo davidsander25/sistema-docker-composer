@@ -1,0 +1,10 @@
+FROM mariadb:10.3
+ENV MYSQL_ROOT_PASSWORD 12345678
+ENV MYSQL_DATABASE david_db
+ENV MYSQL_USER david
+ENV MYSQL_PASSWORD 12345678
+WORKDIR /home/mysql
+COPY . .
+CMD ["mysqld"]
+RUN chmod +x script-mysql.sh
+EXPOSE 3306

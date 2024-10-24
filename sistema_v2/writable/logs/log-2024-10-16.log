@@ -1,0 +1,254 @@
+CRITICAL - 2024-10-16 00:58:32 --> Invalid file: "Home_blank.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home_blank.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Home_blank', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('Home_blank')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 00:58:41 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 00:59:03 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 01:04:45 --> Invalid file: "includ/Footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includ/Footer.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('includ/Footer', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('includ/Footer')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 01:05:12 --> Invalid file: "includ/Footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includ/Footer.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('includ/Footer', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('includ/Footer')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 14:36:08 --> Too few arguments to function App\Models\M_Usuario::ListaUsuario(), 0 passed in V:\xampp\htdocs\docker\app\Controllers\Usuario.php on line 18 and exactly 1 expected
+in APPPATH\Models\M_Usuario.php on line 31.
+ 1 APPPATH\Controllers\Usuario.php(18): App\Models\M_Usuario->ListaUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 14:36:52 --> App\Controllers\Usuario::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Usuario.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 15:23:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Produto.php(18): CodeIgniter\Model->__call('ListaUsuario', [])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 16:25:03 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Produto.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('V:\\xampp\\htdocs\\docker\\app\\Controllers\\Produto.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Produto')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Produto')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Produto', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 16:26:39 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Produto.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('V:\\xampp\\htdocs\\docker\\app\\Controllers\\Produto.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Produto')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Produto')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Produto', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 16:26:41 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Produto.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('V:\\xampp\\htdocs\\docker\\app\\Controllers\\Produto.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Produto')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Produto')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Produto', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 16:27:17 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Produto.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('V:\\xampp\\htdocs\\docker\\app\\Controllers\\Produto.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Produto')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Produto')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Produto', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 16:38:08 --> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'marca' cannot be null
+in APPPATH\Models\M_Produto.php on line 52.
+ 1 APPPATH\Models\M_Produto.php(52): PDOStatement->execute([...])
+ 2 APPPATH\Controllers\Produto.php(42): App\Models\M_Produto->CadastroProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->cadastro()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 16:59:30 --> Undefined array key "produto"
+in APPPATH\Controllers\Produto.php on line 39.
+ 1 APPPATH\Controllers\Produto.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "produto"', 'V:\\xampp\\htdocs\\docker\\app\\Controllers\\Produto.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->cadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 17:00:48 --> Undefined variable $ver
+in APPPATH\Controllers\Produto.php on line 53.
+ 1 APPPATH\Controllers\Produto.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ver', 'V:\\xampp\\htdocs\\docker\\app\\Controllers\\Produto.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->cadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 17:00:49 --> Undefined variable $ver
+in APPPATH\Controllers\Produto.php on line 53.
+ 1 APPPATH\Controllers\Produto.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ver', 'V:\\xampp\\htdocs\\docker\\app\\Controllers\\Produto.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->cadastro()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 17:57:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_Produto.php(73): CodeIgniter\Model->__get('codigo')
+ 4 APPPATH\Controllers\Produto.php(68): App\Models\M_Produto->EditarProduto()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->Editar()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 17:57:11 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_Produto.php(73): CodeIgniter\Model->__get('codigo')
+ 4 APPPATH\Controllers\Produto.php(68): App\Models\M_Produto->EditarProduto()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->Editar()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 17:59:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Produto.php(68): CodeIgniter\Model->__call('setCodigo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->Editar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 18:00:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Produto.php(68): CodeIgniter\Model->__call('setCodigo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->Editar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 18:00:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Produto.php(68): CodeIgniter\Model->__call('setCodigo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produto->Editar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 18:55:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_Usuario.php(85): CodeIgniter\Model->__get('codigo')
+ 4 APPPATH\Controllers\Usuario.php(60): App\Models\M_Usuario->ConfirmarSenha()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->Editar()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 18:56:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_Usuario.php(85): CodeIgniter\Model->__get('codigo')
+ 4 APPPATH\Controllers\Usuario.php(60): App\Models\M_Usuario->ConfirmarSenha()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->Editar()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 18:57:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_Usuario.php(85): CodeIgniter\Model->__get('codigo')
+ 4 APPPATH\Controllers\Usuario.php(60): App\Models\M_Usuario->ConfirmarSenha()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->Editar()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 18:57:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_Usuario.php(85): CodeIgniter\Model->__get('codigo')
+ 4 APPPATH\Controllers\Usuario.php(60): App\Models\M_Usuario->ConfirmarSenha()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->Editar()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 19:05:08 --> Undefined array key "total"
+in APPPATH\Models\M_Usuario.php on line 96.
+ 1 APPPATH\Models\M_Usuario.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'V:\\xampp\\htdocs\\docker\\app\\Models\\M_Usuario.php', 96)
+ 2 APPPATH\Controllers\Usuario.php(60): App\Models\M_Usuario->ConfirmarSenha()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->Editar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 19:05:21 --> Attempt to read property "total" on array
+in APPPATH\Models\M_Usuario.php on line 96.
+ 1 APPPATH\Models\M_Usuario.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "total" on array', 'V:\\xampp\\htdocs\\docker\\app\\Models\\M_Usuario.php', 96)
+ 2 APPPATH\Controllers\Usuario.php(60): App\Models\M_Usuario->ConfirmarSenha()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->Editar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 19:05:22 --> Attempt to read property "total" on array
+in APPPATH\Models\M_Usuario.php on line 96.
+ 1 APPPATH\Models\M_Usuario.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "total" on array', 'V:\\xampp\\htdocs\\docker\\app\\Models\\M_Usuario.php', 96)
+ 2 APPPATH\Controllers\Usuario.php(60): App\Models\M_Usuario->ConfirmarSenha()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Usuario->Editar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 19:55:06 --> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) as total
+            from
+                produto as p' at line 2
+in APPPATH\Models\M_Produto.php on line 58.
+ 1 APPPATH\Models\M_Produto.php(58): PDOStatement->execute()
+ 2 APPPATH\Controllers\Home.php(20): App\Models\M_Produto->TotalProduto()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-16 20:25:11 --> Call to undefined method PDOStatement::countRow()
+in APPPATH\Models\M_Usuario.php on line 196.
+ 1 APPPATH\Controllers\Login.php(32): App\Models\M_Usuario->AcessaSistema()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->Logar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(30): CodeIgniter\CodeIgniter->run()

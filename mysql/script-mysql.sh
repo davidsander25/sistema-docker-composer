@@ -1,0 +1,1 @@
+mysql -h localhost -uroot -p12345678 < db.sql

@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  backend: 
+    build: ./mysql
+    container_name: banco_sistema_teste
+    restart: always
+    #command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - my-db:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+  frontend:
+    depends_on: 
+      - backend
+    build: ./sistema_v2
+    container_name: sistema_david_teste
+    restart: always
+    ports:
+      - "80:80"
+    links:
+     - backend:backend
+        
+volumes:
+  my-db:
