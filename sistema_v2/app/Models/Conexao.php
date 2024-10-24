@@ -12,8 +12,8 @@ class Conexao extends Model
     {
 
         try {
-            $username = "david";
-            $password = '13245678';
+            $username = "root";
+            $password = '12345678';
             $banco = 'app_david';
 
             $conn = new \PDO('mysql:host=banco_sistema_teste;dbname=' . $banco . '', $username, $password);
